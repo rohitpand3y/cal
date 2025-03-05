@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(216, 79, 0);
+    color: aliceblue;
+}
+
+.box{
+    /* border: 2px   solid black; */
+    width:auto;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    
+
+}
+.box h2{
+    text-align: center;
+}
+
+
+.box input{
+    /* width: 50%; */
+    height:2vh;
+text-align: center;
+}
+.box button{
+    height: 2vh;
+}
+
+
+.res{
+    background-color: bisque;
+    border: 2px solid black;
+    height: 3vh;
+    width: 10vh;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+
+    
+}
+.res p{
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
